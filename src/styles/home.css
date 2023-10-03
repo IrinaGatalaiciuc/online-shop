@@ -58,3 +58,24 @@ p {
     width: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 750px) {
+    .home-image {
+        width: 100%;
+    }
+    .home-container {
+        width: 100%;
+        position: relative;
+    }
+    .home-text {
+        width: fit-content;
+        position: static;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-image {
+        display: none;
+    }
+}
